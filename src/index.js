@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import HelloWord from './components/HelloWord';
 
 const name = 'Valdo Morais'
 const newName = name.toUpperCase()
@@ -19,6 +20,7 @@ root.render(
     <p> Ola {newName}</p>
     <p> A soma de 1 e 2 e: {sum(1,2)}</p>
     <img src={url} alt="minha Imagem"/>
+    <HelloWord/>
   </div>
 );
 

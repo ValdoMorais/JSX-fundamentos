@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWord from './components/helloWord';
 
 function App() {
   return (
