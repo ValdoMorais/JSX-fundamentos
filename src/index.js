@@ -6,6 +6,7 @@ import HelloWord from './components/HelloWord';
 import MyName from './components/MyName';
 import Pessoa from './components/Pessoa';
 import Frase from './components/Frase';
+import List from './components/List';
 
 const name = 'Valdo Morais'
 const newName = name.toUpperCase()
@@ -18,6 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <div className="root">
+        <List />
         <Frase />
 
         <Frase />
