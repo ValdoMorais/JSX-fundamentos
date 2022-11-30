@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HelloWord from './components/HelloWord';
+import MyName from './components/MyName';
+import Pessoa from './components/Pessoa';
 
 const name = 'Valdo Morais'
 const newName = name.toUpperCase()
@@ -21,6 +23,10 @@ root.render(
     <p> A soma de 1 e 2 e: {sum(1,2)}</p>
     <img src={url} alt="minha Imagem"/>
     <HelloWord/>
+    <MyName nome= "Valdo"/>
+
+    <Pessoa nome = "Valdo Morais" idade= "21" profissao="Desenvolvidor" foto ="http://via.placeholder.com/150"/>
+
   </div>
 );
 
