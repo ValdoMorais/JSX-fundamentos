@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import HelloWord from './components/HelloWord';
 import MyName from './components/MyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 const name = 'Valdo Morais'
 const newName = name.toUpperCase()
@@ -17,11 +18,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <div className="root">
+        <Frase />
+
+        <Frase />
     <h1>{name}!</h1>
     <h2> Alternando o JSX</h2>
     <p> Ola {newName}</p>
     <p> A soma de 1 e 2 e: {sum(1,2)}</p>
     <img src={url} alt="minha Imagem"/>
+
     <HelloWord/>
     <MyName nome= "Valdo"/>
 
